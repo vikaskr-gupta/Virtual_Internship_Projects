@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginstyle.css">
+
+    <link rel="icon" href="images\pp.ico.png">
+
+    <title>LogIn Page</title>
+
+    <link rel="icon" href="images\pp.ico.png">
+
+    <!-- google-fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,900;1,300;1,400&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+</head>
+<body>
+  <img class="loginbg" src="images/bg.jpg" alt="">
+    <form action="">
+        <div class="headingsContainer">
+            <h3>Sign in</h3>
+            <p class="text">Sign in with your username and password</p>
+        </div>
+
+        <div class="mainContainer">
+            <!-- Username -->
+            <label for="username">Your username</label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+
+            <br><br>
+
+            <!-- Password -->
+            <label for="pswrd">Your password</label>
+            <input type="password" placeholder="Enter Password" name="pswrd" required>
+
+            <div class="subcontainer">
+                <label>
+                  <input type="checkbox" name="remember"> Remember me
+                </label>
+                <p class="forgotpsd"> <a  class="linkhover" href="#">Forgot Password?</a></p>
+            </div>
+
+
+            <!-- Submit button -->
+            <button type="submit">Login</button>
+
+            <!-- Sign up link -->
+            <p class="register">Not a member?  <a  class="linkhover" href="singnup.html">Register here!</a></p>
+
+        </div>
+
+    </form>
+</body>
+</html>
